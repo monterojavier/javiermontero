@@ -1,6 +1,6 @@
-import { Navbar, Sidebar, Resume, About } from "./components";
+import React, { useEffect } from "react";
 
-import { useEffect } from "react";
+import { Navbar, Sidebar, Resume, About } from "./components";
 
 function App() {
   useEffect(() => {

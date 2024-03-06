@@ -1,11 +1,11 @@
 import React from "react";
-import "./Resume.css";
 
 import Experience from "./Experience";
 import Education from "./Education";
-
 import jsonEducation from "../../json/education.json";
 import jsonExperience from "../../json/experience.json";
+
+import "./Resume.css";
 
 export default function Resume() {
   return (

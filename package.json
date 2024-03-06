@@ -42,7 +42,6 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "jest": "^29.7.0",
     "jest-watch-typeahead": "^0.6.5"
   }
 }

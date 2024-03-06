@@ -82,6 +82,9 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install dependencies
+        run: npm install --package-lock-only
+
+      - name: NPM CI
         run: npm ci
 
       - name: Build React

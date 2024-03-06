@@ -1,8 +1,7 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "./App.jsx";
 
-test("renders my name on page", () => {
+test("renders App component", () => {
   render(<App />);
-  // const linkElement = screen.getByText("I'M Javier Montero");
   expect(true).toBe(true);
 });

@@ -1,13 +1,12 @@
 import React from "react";
-import { IonIcon } from "@ionic/react";
-import { bookOutline } from "ionicons/icons";
+import { IoBookOutline } from "react-icons/io5";
 
 function Experience({ experience }) {
   return (
     <section className="timeline">
       <div className="title-wrapper">
         <div className="icon-box">
-          <IonIcon icon={bookOutline}></IonIcon>
+          <IoBookOutline />
         </div>
 
         <h3 className="h3">Experience</h3>

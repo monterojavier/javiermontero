@@ -1,13 +1,12 @@
 import React from "react";
-import { IonIcon } from "@ionic/react";
-import { schoolOutline } from "ionicons/icons";
+import { IoSchoolOutline } from "react-icons/io5";
 
 function Education({ education }) {
   return (
     <section className="timeline">
       <div className="title-wrapper">
         <div className="icon-box">
-          <IonIcon icon={schoolOutline}></IonIcon>
+          <IoSchoolOutline />
         </div>
 
         <h3 className="h3">Education</h3>

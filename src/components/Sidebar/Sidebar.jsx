@@ -1,17 +1,18 @@
-import "./Sidebar.css";
-import avatar from "../../images/avatar.png";
-import { IonIcon } from "@ionic/react";
-import {
-  phonePortraitOutline,
-  mailOutline,
-  locationOutline,
-  logoTwitter,
-  logoLinkedin,
-  logoGithub,
-  chevronDown,
-} from "ionicons/icons";
+import React, { useEffect, useRef, useCallback } from "react";
 
-import { useEffect, useRef, useCallback } from "react";
+import {
+  IoPhonePortraitOutline,
+  IoMailOutline,
+  IoLocationOutline,
+  // IoLogoTwitter,
+  IoLogoLinkedin,
+  IoLogoGithub,
+  IoChevronDown,
+} from "react-icons/io5";
+
+import avatar from "../../images/avatar.png";
+
+import "./Sidebar.css";
 
 export default function Sidebar() {
   const sidebarRef = useRef(null);
@@ -22,9 +23,9 @@ export default function Sidebar() {
     elem.classList.toggle("active");
   };
 
-  const handleSidebarToggle = useCallback(() =>
-    elementToggleFunc(sidebarRef.current)
-  );
+  const handleSidebarToggle = useCallback(() => {
+    return elementToggleFunc(sidebarRef.current);
+  }, []);
 
   useEffect(() => {
     // sidebar variables
@@ -52,7 +53,7 @@ export default function Sidebar() {
         <button ref={sidebarBtnRef} className="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
 
-          <IonIcon icon={chevronDown}></IonIcon>
+          <IoChevronDown />
         </button>
       </div>
 
@@ -62,7 +63,7 @@ export default function Sidebar() {
         <ul className="contacts-list">
           <li className="contact-item">
             <div className="icon-box">
-              <IonIcon icon={mailOutline}></IonIcon>
+              <IoMailOutline />
             </div>
 
             <div className="contact-info">
@@ -79,7 +80,7 @@ export default function Sidebar() {
 
           <li className="contact-item">
             <div className="icon-box">
-              <IonIcon icon={phonePortraitOutline}></IonIcon>
+              <IoPhonePortraitOutline />
             </div>
 
             <div className="contact-info">
@@ -93,7 +94,7 @@ export default function Sidebar() {
 
           <li className="contact-item">
             <div className="icon-box">
-              <IonIcon icon={locationOutline}></IonIcon>
+              <IoLocationOutline />
             </div>
 
             <div className="contact-info">
@@ -107,21 +108,31 @@ export default function Sidebar() {
         <div className="separator"></div>
 
         <ul className="social-list">
+          {/* <li className="social-item">
+            <a href="#" target="_blank" rel="noreferrer" className="social-link">
+              <IoLogoTwitter />
+            </a>
+          </li> */}
+
           <li className="social-item">
-            <a href="#" className="social-link">
-              <IonIcon icon={logoTwitter}></IonIcon>
+            <a
+              href="https://github.com/monterojavier"
+              target="_blank"
+              rel="noreferrer"
+              className="social-link"
+            >
+              <IoLogoGithub />
             </a>
           </li>
 
           <li className="social-item">
-            <a href="#" className="social-link">
-              <IonIcon icon={logoGithub}></IonIcon>
-            </a>
-          </li>
-
-          <li className="social-item">
-            <a href="#" className="social-link">
-              <IonIcon icon={logoLinkedin}></IonIcon>
+            <a
+              href="https://www.linkedin.com/in/javierlmontero/"
+              target="_blank"
+              rel="noreferrer"
+              className="social-link"
+            >
+              <IoLogoLinkedin />
             </a>
           </li>
         </ul>

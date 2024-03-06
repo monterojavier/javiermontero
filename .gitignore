@@ -21,3 +21,22 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# coming soon / in progress
+src/components/About/Client.jsx
+src/components/About/Testimonials.jsx
+src/components/About/Services.jsx
+src/components/Resume/Skills.jsx
+src/components/Blog
+src/components/Portfolio
+src/components/Contact
+
+
+# archives
+src/images/archive
+src/json/testimonials.json
+
+
+# testing coming later
+src/App.test.js

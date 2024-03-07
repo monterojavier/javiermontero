@@ -21,7 +21,7 @@ export default [
     id: 3,
     title: 'Multiverse',
     date: '2021 - 2023',
-    field: 'Softwre Engineer',
+    field: 'Software Engineer',
     skills: '',
     aboutIt:
       'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.'

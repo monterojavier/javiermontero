@@ -1,5 +1,5 @@
 // Image imports
-import shoppingListScreenshot from '../../images/shopping-list-screenshot.png'
+import shoppingListScreenshot from '../images/shopping-list-screenshot.png'
 
 // Links to Deployed Site or Github Project
 const shoppingListLink = 'https://monterojavier.github.io/simple-shopping-list/'
@@ -19,8 +19,6 @@ export default [
 /* dataCategory & category ex:
     - web development
     - mobile
-
-    https://github.com/monterojavier/simple-shopping-list
 
     Sample element:
 

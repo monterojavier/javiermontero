@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoEyeOutline } from 'react-icons/io5'
 
-import projects from './projectList'
+import projects from '../../import/projectList'
 import './Portfolio.css'
 
 function Portfolio() {

@@ -84,10 +84,10 @@ jobs:
       - name: Install dependencies
         run: npm install --package-lock-only
 
-      - name: NPM CI
+      - name: Npm CI
         run: npm ci
 
-      - name: Build React
+      - name: Build
         run: npm run build
 
       - name: Deploy to Vercel

@@ -1,39 +1,40 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react'
 
-import { Navbar, Sidebar, Resume, About } from "./components";
+import { Navbar, Sidebar, About, Resume, Portfolio } from './components'
 
 function App() {
   useEffect(() => {
     // page navigation variables
-    const navigationLinks = document.querySelectorAll("[data-nav-link]");
-    const pages = document.querySelectorAll("[data-page]");
+    const navigationLinks = document.querySelectorAll('[data-nav-link]')
+    const pages = document.querySelectorAll('[data-page]')
 
     // add event to all nav link
     for (let i = 0; i < navigationLinks.length; i++) {
-      navigationLinks[i].addEventListener("click", function () {
+      navigationLinks[i].addEventListener('click', function () {
         for (let i = 0; i < pages.length; i++) {
           if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-            pages[i].classList.add("active");
-            navigationLinks[i].classList.add("active");
-            window.scrollTo(0, 0);
+            pages[i].classList.add('active')
+            navigationLinks[i].classList.add('active')
+            window.scrollTo(0, 0)
           } else {
-            pages[i].classList.remove("active");
-            navigationLinks[i].classList.remove("active");
+            pages[i].classList.remove('active')
+            navigationLinks[i].classList.remove('active')
           }
         }
-      });
+      })
     }
-  });
+  })
   return (
     <>
       <Sidebar />
-      <div className="main-content">
+      <div className='main-content'>
         <Navbar />
         <About />
         <Resume />
+        <Portfolio />
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

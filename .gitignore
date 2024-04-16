@@ -39,3 +39,6 @@ src/json/testimonials.json
 
 # testing coming later
 src/App.test.js
+
+# package-lock.json
+ package-lock.json

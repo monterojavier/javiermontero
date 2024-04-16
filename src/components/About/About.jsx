@@ -6,11 +6,11 @@ export default function About() {
   return (
     <article className='about  active' data-page='about'>
       <header>
-        <h2 className='h2 article-title'>About me</h2>
+        <h2 className='h2 article-title'>About me &#128064;</h2>
       </header>
 
       <section className='about-text'>
-        <p>Hello! I'm Javier, a software engineer with experience in the Tech Industry.</p>
+        <p>Hello! &#128075;&#127997; I'm Javier, a software engineer with experience in the Tech Industry.</p>
 
         <p>
           As a software engineer: I've had experience at 3 organizations where they've had me creating new features, bug

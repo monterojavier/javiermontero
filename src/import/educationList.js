@@ -1,4 +1,4 @@
-export default [
+const educationList = [
   {
     id: 1,
     title: 'SUNY New Paltz',
@@ -27,3 +27,5 @@ export default [
       'Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.'
   }
 ]
+
+export default educationList

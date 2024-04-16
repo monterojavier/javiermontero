@@ -1,4 +1,4 @@
-export default [
+const experienceList = [
   {
     id: 1,
     company: 'Stride Consulting',
@@ -25,7 +25,7 @@ export default [
       'Implemented a fast view generating pipeline to speed up queries of a security RpcSP runtime stats by 87.5%.',
       'Implemented a rolling bloom filter for efficiently deduplicating high cardinality runtime metrics.',
       'Developed and deployed a rolling bloom filter to optimize the deduplication process of high cardinality runtime metrics.'
-    ]
+    ] // Split this into two parts of the apprenticeship
   },
   {
     id: 3,
@@ -41,3 +41,5 @@ export default [
     ]
   }
 ]
+
+export default experienceList

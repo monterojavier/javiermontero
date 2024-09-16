@@ -1,4 +1,3 @@
-import React from 'react'
 import { IoEyeOutline } from 'react-icons/io5'
 
 import projects from '../../import/projectList'

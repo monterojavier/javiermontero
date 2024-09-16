@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import { Navbar, Sidebar, About, Resume, Portfolio } from './components'
@@ -26,19 +26,18 @@ function App() {
     }
   })
   return (
-    <>
-      <BrowserRouter>
-        <Sidebar />
-        <div className='main-content'>
-          <Navbar />
-          <Routes>
-            <Route path='about' element={<About />} />
-            <Route path='resume' element={<Resume />} />
-            <Route path='portfolio' element={<Portfolio />} />
-          </Routes>
-        </div>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Sidebar />
+      <div className='main-content'>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<About />} />
+          <Route path='about' element={<About />} />
+          <Route path='resume' element={<Resume />} />
+          <Route path='portfolio' element={<Portfolio />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 

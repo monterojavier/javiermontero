@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { IoSchoolOutline } from 'react-icons/io5'
 
 import education from '../../import/educationList'

@@ -27,7 +27,6 @@ yarn-error.log*
 src/components/About/Client.jsx
 src/components/About/Testimonials.jsx
 src/components/About/Services.jsx
-src/components/Resume/Skills.jsx
 src/components/Blog
 src/components/Contact
 

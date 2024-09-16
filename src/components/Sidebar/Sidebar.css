@@ -68,8 +68,8 @@
   z-index: -1;
 }
 
-.info_more-btn:hover,
-.info_more-btn:focus {
+.info_more-btn:hover
+/* .info_more-btn:focus  */ {
   background: var(--bg-gradient-yellow-1);
 }
 
@@ -78,9 +78,9 @@
   background: var(--bg-gradient-yellow-2);
 }
 
-.info_more-btn span {
+/* .info_more-btn span {
   display: none;
-}
+} */
 
 .sidebar-info_more {
   opacity: 0;

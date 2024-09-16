@@ -1,5 +1,6 @@
 import Experience from './Experience'
 import Education from './Education'
+import Skills from './Skills'
 
 import './Resume.css'
 
@@ -11,6 +12,7 @@ export default function Resume() {
       </header>
       <Experience />
       <Education />
+      <Skills />
     </article>
   )
 }

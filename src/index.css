@@ -132,10 +132,6 @@ html {
   font-family: var(--ff-poppins);
 }
 
-body {
-  background: var(--smoky-black);
-}
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/

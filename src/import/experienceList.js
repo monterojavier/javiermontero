@@ -10,7 +10,8 @@ const experienceList = [
       'Collaborated with the team to update, build, and deploy the company’s intranet in Ruby on Rails.',
       'Learned the company’s tech stack to assist in adding and improving website features.',
       'Tested the website using Selenium, Capybara, and Jest testing frameworks.'
-    ]
+    ],
+    currentPosition: false
   },
   {
     id: 2,
@@ -25,7 +26,8 @@ const experienceList = [
       'Implemented a fast view generating pipeline to speed up queries of a security RpcSP runtime stats by 87.5%.',
       'Implemented a rolling bloom filter for efficiently deduplicating high cardinality runtime metrics.',
       'Developed and deployed a rolling bloom filter to optimize the deduplication process of high cardinality runtime metrics.'
-    ] // Split this into two parts of the apprenticeship
+    ], // Split this into two parts of the apprenticeship
+    currentPosition: false
   },
   {
     id: 3,
@@ -38,7 +40,8 @@ const experienceList = [
       'Advised 40+ students throughout the Amazon career choice bootcamp program by teaching frontend and backend technology.',
       'Managing team projects including conducting code reviews, concept creation, and technical challenges.',
       'Guided workshops and lectures, contributing real-world insights beyond the standard curriculum.'
-    ]
+    ],
+    currentPosition: true
   }
 ]
 

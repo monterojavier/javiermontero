@@ -6,7 +6,7 @@ import './Portfolio.css'
 
 function Portfolio() {
   return (
-    <article className='portfolio' data-page='portfolio'>
+    <article className='portfolio active' data-page='portfolio'>
       <header>
         <h2 className='h2 article-title'>Portfolio</h2>
       </header>
@@ -20,7 +20,7 @@ function Portfolio() {
                 data-filter-item
                 data-category={project.dataCategory}
               >
-                <a href={project.link} target='_blank'>
+                <a href={project.link} target='_blank' rel='noreferrer'>
                   <figure className='project-img'>
                     <div className='project-item-icon-box'>
                       <IoEyeOutline />

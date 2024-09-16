@@ -20,7 +20,7 @@ function Portfolio() {
                 data-filter-item
                 data-category={project.dataCategory}
               >
-                <a href={project.link} target='_blank'>
+                <a href={project.link} target='_blank' rel='noreferrer'>
                   <figure className='project-img'>
                     <div className='project-item-icon-box'>
                       <IoEyeOutline />

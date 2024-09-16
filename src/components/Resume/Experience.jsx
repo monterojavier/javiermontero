@@ -16,8 +16,9 @@ function Experience() {
 
       <ol className='timeline-list'>
         {experience.toReversed().map((theJob) => {
+          const liClassName = theJob.currentPosition ? 'timeline-item latest-exp' : 'timeline-item'
           return (
-            <li className='timeline-item' key={theJob.id}>
+            <li className={liClassName} key={theJob.id}>
               <h4 className='h4 timeline-item-title'>
                 <strong>{theJob.company}</strong> - {theJob.title}
               </h4>

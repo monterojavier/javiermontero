@@ -1,25 +1,27 @@
 import './Navbar.css'
 
+import { Outlet, NavLink } from 'react-router-dom'
+
 function Navbar() {
   return (
     <nav className='navbar'>
       <ul className='navbar-list'>
         <li className='navbar-item'>
-          <button className='navbar-link  active' data-nav-link>
+          <NavLink to='/about' className='navbar-link' data-nav-link>
             About
-          </button>
+          </NavLink>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link' data-nav-link>
+          <NavLink to='/resume' className='navbar-link' data-nav-link>
             Resume
-          </button>
+          </NavLink>
         </li>
 
         <li className='navbar-item'>
-          <button className='navbar-link' data-nav-link>
+          <NavLink to='/portfolio' className='navbar-link' data-nav-link>
             Portfolio
-          </button>
+          </NavLink>
         </li>
       </ul>
     </nav>

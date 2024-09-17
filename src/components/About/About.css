@@ -6,11 +6,36 @@
   margin-bottom: 15px;
 }
 
+.about-section {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'my-story'
+    'area-of-interest'
+    'who-am-i';
+  gap: 15px;
+}
+
+.my-story {
+  grid-area: my-story;
+}
+
+.area-of-interest {
+  grid-area: area-of-interest;
+}
+
+.who-am-i {
+  grid-area: who-am-i;
+}
 .about-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  background: var(--onyx);
+  border-radius: 20px;
+  padding: 15px;
 }
 
 .about-text p {
@@ -325,8 +350,19 @@
     margin-bottom: 20px;
   }
 
+  .about-section {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'my-story'
+      'area-of-interest'
+      'who-am-i';
+    gap: 15px;
+  }
+
   .about-text {
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
   }
 
   /* service */
@@ -453,6 +489,16 @@
 
   .modal-avatar-box img {
     width: 80px;
+  }
+
+  .about-section {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'my-story area-of-interest'
+      'my-story who-am-i';
+    gap: 15px;
   }
 }
 

@@ -1,7 +1,15 @@
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
+.projects {
+  display: flex !important;
+  justify-content: center;
+}
 
+#coming-soon {
+  color: var(--orange-yellow-crayola);
+  font-size: 3rem;
+}
 /*-----------------------------------*\
   #PROJECT LIST
 \*-----------------------------------*/

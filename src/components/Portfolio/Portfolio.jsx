@@ -10,7 +10,8 @@ function Portfolio() {
         <h2 className='h2 article-title'>Portfolio</h2>
       </header>
       <section className='projects'>
-        <ul className='project-list'>
+        <p id='coming-soon'>Coming Soon</p>
+        {/* <ul className='project-list'>
           {projects.map((project) => {
             return (
               <li
@@ -35,7 +36,7 @@ function Portfolio() {
               </li>
             )
           })}
-        </ul>
+        </ul> */}
       </section>
     </article>
   )

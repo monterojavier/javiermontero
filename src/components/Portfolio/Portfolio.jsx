@@ -1,15 +1,25 @@
-import { IoEyeOutline } from 'react-icons/io5'
+// import { IoEyeOutline } from 'react-icons/io5'
 
-import projects from '../../import/projectList'
+// import projects from '../../import/projectList'
+import { motion } from 'framer-motion'
+
+import { routeVariants, childVariants } from '../Utilities/variantStyle'
 import './Portfolio.css'
 
 function Portfolio() {
   return (
-    <article className='portfolio active' data-page='portfolio'>
+    <motion.article
+      className='portfolio active'
+      data-page='portfolio'
+      variants={routeVariants}
+      initial='initial'
+      animate='animate'
+      transtion='final'
+    >
       <header>
         <h2 className='h2 article-title'>Portfolio</h2>
       </header>
-      <section className='projects'>
+      <motion.section className='projects' variants={childVariants} initial='initial' animate='final'>
         <p id='coming-soon'>Coming Soon</p>
         {/* <ul className='project-list'>
           {projects.map((project) => {
@@ -37,8 +47,8 @@ function Portfolio() {
             )
           })}
         </ul> */}
-      </section>
-    </article>
+      </motion.section>
+    </motion.article>
   )
 }
 

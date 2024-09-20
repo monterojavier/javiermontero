@@ -1,16 +1,28 @@
+import { motion } from 'framer-motion'
+
+import Interest from './Interest'
+
+import { routeVariants, childVariants } from '../Utilities/variantStyle'
 import './About.css'
 
 export default function About() {
   return (
-    <article className='about  active' data-page='about'>
-      <header>
+    <motion.article
+      className='about active'
+      data-page='about'
+      variants={routeVariants}
+      initial='initial'
+      animate='animate'
+      transtion='final'
+    >
+      <motion.header>
         <h2 className='h2 article-title'>About me &#128064;</h2>
-      </header>
+      </motion.header>
 
-      <section className='about-section'>
+      <motion.section className='about-section' variants={childVariants} initial='initial' animate='final'>
         <section className='about-text my-story'>
           <header>
-            <h3>My Story</h3>
+            <h3 className='h3'>My Story</h3>
           </header>
           <p>Hello! &#128075;&#127997; I'm Javier, a software engineer with experience in the Tech Industry.</p>
 
@@ -26,21 +38,11 @@ export default function About() {
           </p>
         </section>
 
-        <section className='about-text area-of-interest'>
-          <header>
-            <h3>Areas of Interest</h3>
-          </header>
-          <ul>
-            <li>AI</li>
-            <li>Machine Learning</li>
-            <li>Frontend</li>
-            <li>Backend</li>
-          </ul>
-        </section>
+        <Interest />
 
         <section className='about-text who-am-i'>
           <header>
-            <h3>Outside from software engineering? Who am I?</h3>
+            <h3 className='h3'>Outside from software engineering? Who am I?</h3>
           </header>
           <ul>
             <li>Driven & ambitious</li>
@@ -49,8 +51,7 @@ export default function About() {
             <li>Learning Chinese(Mandarin) (I speak English and Spanish)</li>
           </ul>
         </section>
-      </section>
-      <strong>Thanks for stopping by!!</strong>
-    </article>
+      </motion.section>
+    </motion.article>
   )
 }

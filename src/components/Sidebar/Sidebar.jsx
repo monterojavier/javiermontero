@@ -1,4 +1,5 @@
 import { useEffect, useRef, useCallback, useState } from 'react'
+import { motion } from 'framer-motion'
 
 import {
   IoPhonePortraitOutline,
@@ -51,7 +52,13 @@ export default function Sidebar() {
         </div>
 
         <button onClick={handleContactsToggle} ref={sidebarBtnRef} className='info_more-btn' data-sidebar-btn>
-          <span>{showContacts ? 'Hide Contacts' : 'Show Contacts'}</span>
+          <motion.span
+            whileHover={{ scale: 1.15 }}
+            whileTap={{ scale: 0.8 }}
+            transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+          >
+            {showContacts ? 'Hide Contacts' : 'Show Contacts'}
+          </motion.span>
         </button>
       </div>
 

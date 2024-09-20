@@ -27,7 +27,9 @@
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola-darker: hsl(45, 100%, 55%);
   --vegas-gold: hsl(45, 54%, 58%);
+  --vegas-gold-dark: hsl(45, 100%, 40%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -187,6 +189,7 @@ article {
 article.active {
   display: block;
   animation: fade 0.5s ease backwards;
+  transition: var(--transition-2);
 }
 
 @keyframes fade {

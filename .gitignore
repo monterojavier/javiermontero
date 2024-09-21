@@ -26,7 +26,6 @@ yarn-error.log*
 # coming soon / in progress
 src/components/About/Client.jsx
 src/components/About/Testimonials.jsx
-src/components/About/Services.jsx
 src/components/Blog
 src/components/Contact
 

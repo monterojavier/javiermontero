@@ -5,7 +5,8 @@ import {
   IoPhonePortraitOutline,
   IoMailOutline,
   IoLocationOutline,
-  // IoLogoTwitter,
+  IoLogoTwitter,
+  IoLogoInstagram,
   IoLogoLinkedin,
   IoLogoGithub
 } from 'react-icons/io5'
@@ -110,11 +111,29 @@ export default function Sidebar() {
         <div className='separator'></div>
 
         <ul className='social-list'>
-          {/* <li className="social-item">
-            <a href="#" target="_blank" rel="noreferrer" className="social-link">
+          <li className='social-item'>
+            <a
+              href='https://www.x.com/yonkojav'
+              target='_blank'
+              rel='noreferrer'
+              className='social-link'
+              style={{ 'pointer-events': 'none', cursor: 'default' }}
+            >
               <IoLogoTwitter />
             </a>
-          </li> */}
+          </li>
+
+          <li className='social-item'>
+            <a
+              href='https://www.instagram.com/yonkojav'
+              target='_blank'
+              rel='noreferrer'
+              className='social-link'
+              style={{ 'pointer-events': 'none', cursor: 'default' }}
+            >
+              <IoLogoInstagram />
+            </a>
+          </li>
 
           <li className='social-item'>
             <a href='https://github.com/monterojavier' target='_blank' rel='noreferrer' className='social-link'>

@@ -42,70 +42,66 @@
   margin-bottom: 15px;
 }
 
-.interest-content {
-  color: var(--orange-yellow-crayola);
-}
-
 /**
- * #service
+ * #interest
  */
 
-/* .service {
+/* .interest {
   margin-bottom: 35px;
 } */
 
-.service-title {
+.interest-title {
   margin-bottom: 10px;
 }
 
-.service-list {
+.interest-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 15px;
 }
 
-.service-item {
+.interest-topic {
   position: relative;
   place-content: center;
   border-radius: 14px;
-  box-shadow: var(--shadow-2);
+  box-shadow: var(--shadow-3);
   z-index: 1;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 5px;
   padding: 10px 12px;
   width: auto;
-  background: var(--onyx);
-  border: 2px solid var(--orange-yellow-crayola);
+  background: var(--border-gradient-onyx);
   text-decoration: none;
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-6);
+  text-transform: capitalize;
+  transition: var(--transition-1);
 }
 
-.service-item::before {
+.interest-topic::before {
   content: '';
   position: absolute;
   inset: 1px;
   border-radius: inherit;
   z-index: -1;
+  background: var(--onyx);
 }
 
-.service-icon-box {
+.interest-icon-box {
   margin-bottom: 10px;
 }
 
-.service-icon-box:first-child {
+.interest-icon-box:first-child {
   margin: auto;
 }
 
-.service-content-box {
+.interest-content-box {
   text-align: center;
 }
 
-.service-item-title {
-  margin-bottom: 7px;
-}
-
-.service-item-text {
+.interest-topic-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
@@ -372,17 +368,13 @@
     gap: 15px;
   }
 
-  .about-text {
-    /* margin-bottom: 40px; */
-  }
-
-  /* service */
-  .service-icon-box {
+  /* interest */
+  .interest-icon-box {
     margin-bottom: 0;
     margin-top: 5px;
   }
 
-  .service-content-box {
+  .interest-content-box {
     text-align: left;
   }
 
@@ -510,9 +502,9 @@
    * ABOUT
    */
 
-  /* service */
+  /* interest */
 
-  .service-list {
+  .interest-list {
     grid-template-columns: 1fr 1fr;
     gap: 20px 25px;
   }

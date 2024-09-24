@@ -8,7 +8,6 @@ export default function WhoAmI() {
         <li>Driven & ambitious</li>
         <li>Travel enthusiast</li>
         <li>Tech aficionado</li>
-        <li>Learning Chinese(Mandarin) (I speak English and Spanish)</li>
       </ul>
     </section>
   )

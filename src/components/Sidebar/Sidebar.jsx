@@ -117,7 +117,7 @@ export default function Sidebar() {
               target='_blank'
               rel='noreferrer'
               className='social-link'
-              style={{ 'pointer-events': 'none', cursor: 'default' }}
+              style={{ pointerEvents: 'none', cursor: 'default' }}
             >
               <IoLogoTwitter />
             </a>
@@ -129,7 +129,7 @@ export default function Sidebar() {
               target='_blank'
               rel='noreferrer'
               className='social-link'
-              style={{ 'pointer-events': 'none', cursor: 'default' }}
+              style={{ pointerEvents: 'none', cursor: 'default' }}
             >
               <IoLogoInstagram />
             </a>

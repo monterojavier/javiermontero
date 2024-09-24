@@ -74,7 +74,7 @@
   width: auto;
   background: var(--border-gradient-onyx);
   text-decoration: none;
-  color: var(--orange-yellow-crayola);
+  color: var(--purple-crayola);
   font-size: var(--fs-6);
   text-transform: capitalize;
   transition: var(--transition-1);

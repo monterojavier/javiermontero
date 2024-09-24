@@ -23,6 +23,12 @@ function Navbar() {
             Portfolio
           </NavLink>
         </li>
+
+        {/* <li className='navbar-item'>
+          <NavLink className='navbar-link' to='/blog' data-nav-link>
+            Blog
+          </NavLink>
+        </li> */}
       </ul>
     </nav>
   )

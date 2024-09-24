@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { About, Resume, Portfolio } from '../'
+import { About, Resume, Portfolio, Blog, Post } from '../'
 import { Routes, Route, useLocation } from 'react-router-dom'
 
 export default function RoutesWithAnimation() {
@@ -34,6 +34,8 @@ export default function RoutesWithAnimation() {
       <Route path='about' element={<About />} />
       <Route path='resume' element={<Resume />} />
       <Route path='portfolio' element={<Portfolio />} />
+      {/* <Route path='blog' element={<Blog />} />
+      <Route path='blog/:blogId' element={<Post />} /> */}
     </Routes>
   )
 }

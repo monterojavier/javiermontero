@@ -7,7 +7,7 @@
 }
 
 #coming-soon {
-  color: var(--orange-yellow-crayola);
+  color: var(--purple-crayola);
   font-size: 3rem;
 }
 /*-----------------------------------*\
@@ -71,7 +71,7 @@
   --scale: 0.8;
 
   background: var(--jet);
-  color: var(--orange-yellow-crayola);
+  color: var(--purple-crayola);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -178,7 +178,7 @@
   }
 
   .filter-item button.active {
-    color: var(--orange-yellow-crayola);
+    color: var(--purple-crayola);
   }
 
   /* portfolio grid */

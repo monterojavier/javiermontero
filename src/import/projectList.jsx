@@ -1,8 +1,12 @@
 // Image imports
-import shoppingListScreenshot from '../images/shopping-list-screenshot.png'
+import shoppingListScreenshot from '../images/projects-images/shopping-list-screenshot.png'
+import translateInstantMessenger from '../images/projects-images/translate-instant-messenger.png'
+import mySpotify from '../images/projects-images/my-spotify.png'
 
 // Links to Deployed Site or Github Project
 const shoppingListLink = 'https://monterojavier.github.io/simple-shopping-list/'
+const translateInstantMessengerLink = 'https://github.com/monterojavier/im-server'
+const mySpotifyLink = 'https://github.com/monterojavier/my-spotify'
 
 // Project List
 const projectList = [
@@ -14,17 +18,27 @@ const projectList = [
     title: 'Shopping List',
     category: 'Web Development',
     dataCategory: 'web development',
-    status: 'deployed'
+    status: 'repo'
   },
   {
     id: 2,
-    link: shoppingListLink,
-    alt: 'Shopping List',
-    src: 'null',
-    title: 'Shopping List',
+    link: translateInstantMessengerLink,
+    alt: 'Translate Instant Messenger',
+    src: translateInstantMessenger,
+    title: 'Translate Instant Messenger',
+    category: 'Desktop Application',
+    dataCategory: 'desktop',
+    status: 'repo'
+  },
+  {
+    id: 3,
+    link: mySpotifyLink,
+    alt: 'My Spotify Repo',
+    src: mySpotify,
+    title: 'My Spotify Top 5',
     category: 'Web Development',
     dataCategory: 'web development',
-    status: 'coming soon'
+    status: 'repo'
   }
 ]
 
@@ -44,6 +58,6 @@ export default projectList
       title: 'title name',
       category: 'Web Development',
       dataCategory: 'web development',
-      status: "coming soon" or "deployed" or "in progress"
+      status: "coming soon" or "deployed" or "in progress" or "repo"
     }
 */

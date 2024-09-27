@@ -5,7 +5,7 @@ import {
   IoPhonePortraitOutline,
   IoMailOutline,
   IoLocationOutline,
-  IoLogoTwitter,
+  // IoLogoTwitter,
   IoLogoInstagram,
   IoLogoLinkedin,
   IoLogoGithub
@@ -111,7 +111,7 @@ export default function Sidebar() {
         <div className='separator'></div>
 
         <ul className='social-list'>
-          <li className='social-item'>
+          {/* <li className='social-item'>
             <a
               href='https://www.x.com/yonkojav'
               target='_blank'
@@ -121,7 +121,7 @@ export default function Sidebar() {
             >
               <IoLogoTwitter />
             </a>
-          </li>
+          </li> */}
 
           <li className='social-item'>
             <a

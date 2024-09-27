@@ -1,5 +1,10 @@
 import { useEffect } from 'react'
-import { About, Resume, Portfolio, Blog, Post } from '../'
+import {
+  About,
+  Resume,
+  Portfolio
+  // Blog, Post
+} from '../'
 import { Routes, Route, useLocation } from 'react-router-dom'
 
 export default function RoutesWithAnimation() {

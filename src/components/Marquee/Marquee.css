@@ -1,0 +1,28 @@
+.marquee {
+  overflow: hidden;
+  border-block: .5px solid color-mix(in oklab, var(--ink) 30%, transparent);
+  padding: 18px 0;
+  background: var(--bg-soft);
+  margin: 0 calc(-1 * var(--pad-x));
+}
+.marquee-track {
+  display: flex; width: max-content;
+  animation: marquee 48s linear infinite;
+}
+.marquee-row {
+  display: flex; align-items: center; gap: 28px;
+  padding-right: 28px;
+  font-family: var(--font-display);
+  font-size: clamp(22px, 3vw, 38px);
+  font-style: italic;
+  white-space: nowrap;
+}
+.marquee-item:nth-child(8n+3) { color: var(--accent-1); }
+.marquee-item:nth-child(8n+7) { color: var(--accent-2); font-style: normal; font-family: var(--font-body); font-weight: 600; }
+.marquee-sep { color: var(--ink-soft); display: inline-flex; }
+
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; }
+}

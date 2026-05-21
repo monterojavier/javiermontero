@@ -24,17 +24,8 @@ yarn-error.log*
 
 
 # coming soon / in progress
-src/components/About/Client.jsx
-src/components/About/Testimonials.jsx
-src/components/Blog
-src/import/blogList.jsx
-src/components/Contact
-
 
 # archives
-src/images/archive
-src/json/testimonials.json
-
 
 # testing coming later
 src/App.test.js

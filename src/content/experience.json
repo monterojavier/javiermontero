@@ -1,0 +1,48 @@
+{
+  "jobs": [
+    {
+      "company": "Fullstack Academy",
+      "role": "Software Engineer Mentor",
+      "date": "Feb 2023 — Present",
+      "bullets": [
+        "Mentored 500+ students in full-stack web development — JavaScript, React, Node.js, SQL, and Python.",
+        "Conducted code reviews and guided debugging, architecture, and technical interview preparation.",
+        "Led workshops and lectures bridging curriculum concepts with real-world engineering practices.",
+        "Supported capstone teams through project planning, development, and deployment."
+      ],
+      "tags": ["Teaching", "Code review", "Frontend", "Backend"]
+    },
+    {
+      "company": "New York Life Insurance",
+      "role": "Software Engineer",
+      "date": "Jan 2026 — Jun 2026",
+      "bullets": [
+        "Delivered highly scalable frontend features for R&D team's insurance application used by 13,000 agents.",
+        "Developed pixel-perfect, responsive, cross-platform UIs with an Agile/Scrum workflow.",
+        "Worked closely with product managers, business analysts, and QA engineers to define and ship new features."
+      ],
+      "tags": ["Frontend", "React", "TypeScript", "Agile"]
+    },
+    {
+      "company": "Google",
+      "role": "Software Engineer",
+      "date": "Oct 2021 — Jun 2023",
+      "bullets": [
+        "Delivered an API for state-based ad targeting that improved advertiser efficiency and increased revenue.",
+        "Built privacy-preserving logic to exclude small geographic regions using Google's internal IP tools.",
+        "Designed and implemented a data pipeline that generated event records 85% faster.",
+        "Built a view-generation pipeline that reduced security runtime statistics query times by 87.5%.",
+        "Implemented a rolling bloom filter for efficiently deduplicating high-cardinality runtime metrics."
+      ],
+      "tags": ["C++", "Distributed systems", "Privacy", "Pipelines"]
+    }
+  ],
+  "priorRoles": [
+    {
+      "company": "Stride Consulting",
+      "role": "Software Engineering Intern",
+      "date": "Sept 2020 — Dec 2020",
+      "blurb": "Shipped features and automated tests for the company intranet using Ruby on Rails, Selenium, and Jest."
+    }
+  ]
+}

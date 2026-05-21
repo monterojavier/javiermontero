@@ -1,0 +1,25 @@
+{
+  "education": [
+    {
+      "school": "Multiverse",
+      "field": "Software Engineering Apprenticeship",
+      "date": "2021 — 23"
+    },
+    {
+      "school": "Fullstack Academy",
+      "field": "Fullstack Web Development",
+      "date": "2020"
+    },
+    {
+      "school": "SUNY New Paltz",
+      "field": "Mechanical Engineering, B.S.",
+      "date": "2013 — 16"
+    }
+  ],
+  "skills": {
+    "Languages": ["TypeScript", "JavaScript", "Ruby", "Java", "Swift", "Dart"],
+    "Frontend": ["React", "Vue", "Angular", "Redux", "HTML", "CSS"],
+    "Backend": ["Node", "Express", "Rails", "PostgreSQL", "Prisma", "Sequelize"],
+    "Practice": ["Code review", "Mentorship", "Testing", "CI/CD", "Design systems"]
+  }
+}

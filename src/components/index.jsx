@@ -1,16 +1,9 @@
-import Navbar from './Navbar/Navbar.jsx'
-import Sidebar from './Sidebar/Sidebar.jsx'
-import About from './About/About.jsx'
-import Resume from './Resume/Resume.jsx'
-import Portfolio from './Portfolio/Portfolio.jsx'
-// import Blog from './Blog/Blog.jsx'
-// import Post from './Blog/Post.jsx'
-
-export {
-  Navbar,
-  Sidebar,
-  About,
-  Resume,
-  Portfolio
-  //  Blog, Post
-}
+export { default as Navbar }           from './Navbar/Navbar.jsx'
+export { default as Hero }             from './Hero/Hero.jsx'
+export { default as Marquee }          from './Marquee/Marquee.jsx'
+export { default as About }            from './About/About.jsx'
+export { default as ExperienceSection} from './ExperienceSection/ExperienceSection.jsx'
+export { default as Work }             from './Work/Work.jsx'
+export { default as Contact }          from './Contact/Contact.jsx'
+export { default as Footer }           from './Footer/Footer.jsx'
+export { default as RecruiterView }    from './RecruiterView/RecruiterView.jsx'

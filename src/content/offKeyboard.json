@@ -1,0 +1,54 @@
+{
+  "now": [
+    { "label": "Currently", "value": "Learning to roast my own coffee", "meta": "Ethiopian Yirgacheffe last week" },
+    { "label": "This month", "value": "Training for a half marathon", "meta": "Prospect Park loop, Brooklyn" },
+    {
+      "label": "Tinkering with",
+      "value": "A home server in the closet",
+      "meta": "Plex, Home Assistant, ad-blocking DNS"
+    }
+  ],
+  "things": [
+    {
+      "tag": "Hobby",
+      "name": "Cooking from scratch",
+      "blurb": "Most weekends I'm in the kitchen — Caribbean roots, lots of mofongo and pernil. Recipe notebook is approaching unmanageable.",
+      "span": "half"
+    },
+    {
+      "tag": "Hobby",
+      "name": "Film photography",
+      "blurb": "Olympus OM-1 and a brick of HP5+. Mostly street, mostly underexposed. Slowly getting better.",
+      "span": "half"
+    },
+    { "tag": "Movement", "name": "Running", "blurb": "Started during the pandemic, never quit.", "span": "third" },
+    {
+      "tag": "Travel",
+      "name": "Anywhere with great bread",
+      "blurb": "Recently: Lisbon, Mexico City, Tulum.",
+      "span": "third"
+    },
+    { "tag": "Side quest", "name": "Learning Japanese", "blurb": "N5 cleared. N4 looming.", "span": "third" },
+    {
+      "tag": "Volunteer",
+      "name": "Teaching kids to code on Saturdays.",
+      "blurb": "Local Code/Interactive chapter. Mostly Scratch and getting them excited about making things.",
+      "span": "full",
+      "accent": true
+    }
+  ],
+  "quote": {
+    "text": "Make the thing. Show the thing. Talk about the thing.",
+    "attr": "A line I keep on a sticky note"
+  },
+  "reading": [
+    { "title": "A Philosophy of Software Design", "author": "John Ousterhout", "meta": "Re-read" },
+    { "title": "The Three-Body Problem", "author": "Liu Cixin", "meta": "Sci-fi" },
+    { "title": "Salt, Fat, Acid, Heat", "author": "Samin Nosrat", "meta": "Cooking" }
+  ],
+  "listening": [
+    { "title": "Acquired", "by": "Podcast", "meta": "Weekly" },
+    { "title": "Bad Bunny", "by": "Anything new", "meta": "Always" },
+    { "title": "Ben Böhmer", "by": "Live at Sissi-Huette", "meta": "Focus mix" }
+  ]
+}

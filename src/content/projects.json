@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": "spotify",
+      "title": "My Spotify Top 5",
+      "year": "2023",
+      "category": "Web App",
+      "blurb": "A self-indulgent dashboard for your most-played artists, tracks, and genres. Auth with Spotify, rebuilt every page in React.",
+      "stack": ["React", "Spotify API", "OAuth"],
+      "image": "/images/projects/my-spotify.png",
+      "link": "https://github.com/monterojavier/my-spotify",
+      "featured": true
+    },
+    {
+      "id": "translate-im",
+      "title": "Translate IM",
+      "year": "2022",
+      "category": "Desktop",
+      "blurb": "An instant messenger that translates conversations in-line. Built for cross-language pen-pals.",
+      "stack": ["Electron", "Node", "WebSockets"],
+      "image": "/images/projects/translate-im.png",
+      "link": "https://github.com/monterojavier/im-server",
+      "featured": true
+    },
+    {
+      "id": "shopping-list",
+      "title": "Shopping List",
+      "year": "2021",
+      "category": "Web",
+      "blurb": "A simple, opinionated shopping list. No accounts, no nonsense.",
+      "stack": ["JavaScript", "CSS", "LocalStorage"],
+      "image": "/images/projects/shopping-list.png",
+      "link": "https://monterojavier.github.io/simple-shopping-list/",
+      "featured": false
+    }
+  ]
+}

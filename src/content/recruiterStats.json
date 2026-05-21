@@ -1,0 +1,6 @@
+[
+  { "value": "5",     "label": "Years of experience" },
+  { "value": "6",     "label": "Programming languages" },
+  { "value": "500+",  "label": "Students mentored" },
+  { "value": "87.5%", "label": "Query speedup at Google" }
+]

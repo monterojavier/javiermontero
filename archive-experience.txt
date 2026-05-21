@@ -1,0 +1,37 @@
+ARCHIVED EXPERIENCE CONTENT
+Superseded when experience.json was updated to match resume (May 2026).
+Keep this around in case any of it needs to come back.
+
+=======================================================================
+PRIOR ROLES
+=======================================================================
+
+=======================================================================
+OLD BULLETS — Fullstack Academy (was "Mentor II")
+=======================================================================
+
+  - Advised 40+ students through the Amazon Career Choice bootcamp —
+    teaching frontend and backend fundamentals.
+  - Managed team projects: code reviews, concept creation, and technical
+    challenges.
+  - Led workshops and lectures, contributing real-world insights beyond
+    the standard curriculum.
+
+=======================================================================
+OLD BULLETS — Google (was "Software Engineer Apprentice")
+=======================================================================
+
+  - Shipped a region-targeting API powering ad placement across the web,
+    with privacy-preserving exclusion of small regions.
+  - Designed and implemented a pipeline to periodically generate and
+    index event records — 85% faster than the prior system.
+  - Built a rolling bloom filter for efficient deduplication of
+    high-cardinality runtime metrics, cutting query time by 87.5%.
+
+=======================================================================
+OLD BULLETS — Stride Consulting (moved to priorRoles, May 2026)
+=======================================================================
+
+  - Updated and deployed the company intranet in Ruby on Rails.
+  - Added and enhanced website features across the internal platform.
+  - Created automated tests using Selenium, Capybara, and Jest.

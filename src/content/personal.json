@@ -1,0 +1,31 @@
+{
+  "name": "Javier Montero",
+  "role": "Software Engineer",
+  "location": "New York",
+  "email": "monterodotjavier@icloud.com",
+  "avatar": "/images/avatar.png",
+  "intro": "Software engineer, mentor, and occasional tinkerer. I build thoughtful products on the web and help other people learn how to do the same.",
+  "facts": ["5 yrs writing software", "Dominican", "Speaks ES / EN", "Love traveling"],
+  "about": [
+    "I'm a software engineer based in New York. I've worked at companies like Google and New York Life working both frontend and backend positions.",
+    "These days I mentor 40+ engineers at a time through at Fullstack Academy, teaching frontend and backend fundamentals, running code reviews, and leading workshops.",
+    "I care about clean code, careful product thinking, and helping the next person up the ladder."
+  ],
+  "socials": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/monterojavier",
+      "handle": "@monterojavier"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/javierlmontero/",
+      "handle": "in/javierlmontero"
+    },
+    {
+      "label": "Email",
+      "href": "mailto:monterodotjavier@icloud.com",
+      "handle": "monterodotjavier@icloud.com"
+    }
+  ]
+}

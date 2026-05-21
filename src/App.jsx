@@ -1,21 +1,16 @@
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import PortfolioPage from './pages/PortfolioPage'
+import OffKeyboardPage from './pages/OffKeyboardPage'
+import RecruiterPage from './pages/RecruiterPage'
 
-import { Navbar, Sidebar } from './components'
-import LocationProvider from './components/Utilities/LocationProvider'
-import RoutesWithAnimation from './components/Utilities/RoutesWithAnimation'
-
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
-      <Sidebar />
-      <div className='main-content'>
-        <Navbar />
-        <LocationProvider>
-          <RoutesWithAnimation />
-        </LocationProvider>
-      </div>
+      <Routes>
+        <Route path="/"               element={<PortfolioPage />} />
+        <Route path="/off-keyboard"   element={<OffKeyboardPage />} />
+        <Route path="/recruiter-view" element={<RecruiterPage />} />
+      </Routes>
     </BrowserRouter>
   )
 }
-
-export default App
